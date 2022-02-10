@@ -27,3 +27,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          - name: java vesrion
+            run: java -version
+          - name: maven vesrion
+            run: mvn --version
+          - name: python version
+            run: python --version
+          - name: docker vesrion
+            run: docker -v
+          - name: terrafrom version
+            run: terraform --version
+          
