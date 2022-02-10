@@ -27,7 +27,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          - name: java version
       - name: java vesrion
         run: java -version
       - name: maven vesrion
